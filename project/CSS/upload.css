@@ -1,0 +1,127 @@
+fieldset{
+    width: 90%;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 2%;
+}
+legend{
+    font-size: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.uploadPic{
+    margin: 2% 5.5% 5.5%;
+    width: 90%;
+    min-height: 300px;
+    text-align: center;
+}
+img#PicFromUser{
+    padding-top: 1%;
+    width: auto;
+    max-width: 98%;
+}
+p#placeholder{
+    margin-top: 18%;
+    color: #5d5d5d;
+}
+div.wrap{
+    width: 20%;
+    margin-left: 40%;
+    position:relative;
+    overflow:hidden;
+    display:inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background: #000000;
+}
+div.wrap:hover{
+    background: #000000;
+}
+.wrap span{
+     color: #d0d4d4;
+     font-size: 1.7vw;
+}
+input[type="file"]{
+    position:absolute;
+    top:0;
+    right:0;
+    margin:0;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor: pointer;
+}
+label{
+    display: block;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+}
+label,input[type="text"]{
+    display: block;
+}
+label,textarea{
+    display: block;
+}
+fieldset select{
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 21%;
+    font-size: 1.7vw;
+    color: #444444;
+}
+input[type="text"]{
+    width: 90%;
+    font-size: 1.6vw;
+    padding-left: 0.5%;
+    margin-top: 1%;
+}
+textarea{
+    margin-top: 2%;
+    width: 90%;
+    height: 200px;
+    resize: none;
+    font-size: 1.6vw;
+    padding-left: 0.5%;
+}
+input[type="submit"]{
+    float: right;
+    margin-bottom: 2%;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 1.7vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: whitesmoke;
+    background-color: #adbcc2;
+}
+input[type="submit"]:hover{
+    background-color: #adbcc2;
+}
+@media (max-width: 768px){
+    legend{
+        font-size: 4vw;
+    }
+    .wrap span{
+        font-size: 2.5vw;
+    }
+    label{
+        font-size: 3vw;
+    }
+    input[type="text"]{
+        font-size: 2.6vw;
+    }
+    textarea{
+        font-size: 2.6vw;
+    }
+    input[type="button"]{
+        font-size: 2.5vw;
+    }
+}

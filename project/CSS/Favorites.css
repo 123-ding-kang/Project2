@@ -1,0 +1,83 @@
+ul#FavoritesList{
+    margin-left: 4.6%;
+}
+ul#FavoritesList>li{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.NoFavorPic{
+    margin: 1% 2.5% 3%;
+    width: 94%;
+    height: 100%;
+    border: lightgrey 0.1rem solid;
+    box-shadow: 5px 5px 3px #a9a9a9;
+}
+.NoFavorPic>p{
+    font-family: "Ink Free", sans-serif;
+    font-size: 2.8vw;
+    color: #444444;
+}
+div.favoritePic{
+    width: 94%;
+    height: 100%;
+    border-radius: 0.7rem;
+    border: lightgrey 0.1rem solid;
+}
+div.favoritePic>figure>figcaption,div.favoritePic>figure>a>img{
+    display: inline-block;
+    vertical-align: top;
+}
+div.favoritePic>figure{
+    padding: 2%;
+}
+figure div.PicWrapper, figure figcaption{
+    display: inline-block;
+}
+figure div.PicWrapper{
+    width: 20%;
+}
+figure figcaption{
+    width: 70%;
+    margin-left: 1%;
+}
+figcaption div.favorPicTopic{
+    font-size: 2.8vw;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+figcaption div.description{
+    width: 110%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-indent: 2rem;
+    font-size: 1.7vw;
+}
+input[type="button"]{
+    color: whitesmoke;
+    background-color: #adbcc2;
+    width: 17%;
+    border-radius: 0.6rem;
+    font-size: 1.8vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 75%;
+    margin-top: -5%;
+}
+input[type="button"]:hover{
+    background-color: #adbcc2;
+}
+@media (max-width: 768px){
+    figcaption div.favorPicTopic{
+        font-size: 4vw;
+    }
+    figcaption div.description{
+        font-size: 2.4vw;
+    }
+    input[type="button"]{
+        font-size: 2.5vw;
+    }
+}

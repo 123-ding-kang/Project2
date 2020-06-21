@@ -1,0 +1,151 @@
+html{
+    background-image: url("../images/Background/Paris.png");
+    background-size: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: Candara, sans-serif;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+a.header{
+
+}
+div.title{
+    width: 100%;
+    background-color: bisque;
+    color: #000000;
+    height: 100%;
+}
+div.title h1{
+    display: inline;
+    width: 70%;
+    font-size: 7vw;
+    padding-top: 4%;
+    padding-left: 2%;
+    color: black;
+}
+div.slogan{
+    display: inline;
+    margin-left: 9%;
+    font-size: 2.5vw;
+    font-family: "Ink Free", sans-serif;
+}
+header nav{
+    background-color: aliceblue;
+    width: 100%;
+    font-size: 2.5vw;
+    overflow: hidden;
+}
+a#currentPage{
+    color: rgba(218, 219, 55, 0.91);
+}
+img.icon{
+    width: auto;
+    max-width: 15%;
+}
+nav>ul#navPublic>li{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 3%;
+    width: 20%;
+    display: inline-block;
+}
+h2#myZone{
+   padding-left: 30%;
+}
+ul#navPersonal{
+    margin-left: 5%;
+    background-color: rgba(245, 245, 245, 0.53);
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+li#theDoor:hover>ul{
+    width: 11%;
+    display: block;
+    font-size: 1.7vw;
+}
+li#theDoor>ul>li{
+    width: 100%;
+    height: 30%;
+    font-size: 1.6vw;
+    text-align: left;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+    border: solid #d12376;
+    background-color: rgba(245, 245, 245, 0.57);
+    vertical-align: bottom;
+}
+li#theDoor>ul>li img.icon{
+    width: auto;
+    max-width: 17%;
+}
+nav a:link,nav a:visited,h2#myZone{
+    color: rgba(0, 0, 0, 0.91);
+}
+nav a:hover{
+    font-size: 2.6vw;
+    color: rgba(218, 219, 55, 0.91);
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: whitesmoke;
+}
+footer{
+
+    line-height: 1.2;
+    background-color: #cacaca;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    font-size: 1.1vw;
+}
+footer div.easterEgg,footer address,div.information{
+    display: inline;
+    margin-left: 10%;
+}
+img.normalPic{
+    object-fit: cover;
+    width: 100%;
+}
+@media (max-width: 768px){
+    body{
+        width: 100%;
+    }
+    div.title h1{
+        font-size: 9vw;
+    }
+    div.slogan{
+        font-size: 2.8vw;
+    }
+    header nav{
+        font-size: 3.3vw;
+    }
+    li#theDoor:hover>ul{
+        width: 14%;
+        margin-left: 6%;
+    }
+    li#theDoor>ul>li{
+        font-size: 2.1vw;
+    }
+    footer{
+        font-size: 1.6vw;
+    }
+}

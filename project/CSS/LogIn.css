@@ -1,0 +1,148 @@
+html{
+    background-image: url('../images/Background/Paris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    padding-top: 11%;
+    max-width: 47%;
+    height: 50%;
+    font-family: Candara, sans-serif;
+}
+header{
+    margin-left: 55%;
+    background-color: rgba(208, 212, 212, 0.2);
+    width: 100%;
+    text-align: center;
+    color: #000000;
+}
+h1.title{
+    margin: 0;
+    font-size: 4vw;
+    font-weight: bold;
+}
+div.slogan{
+    font-family: "Ink Free", sans-serif;
+    font-size: 2.5vw;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+main{
+    margin-left: 55%;
+    width: 100%;
+    height: 70%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 1.8vw;
+    background-color: rgba(255, 255, 255, 0.41);
+}
+form{
+    width: 99.5%;
+    height: 90%;
+}
+fieldset{
+    border: 0.1rem dashed #000000;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 95%;
+}
+legend{
+    font-family: Constantia, sans-serif;
+    font-size: 2.5vw;
+    color: #d4237a;
+    margin: 2% auto 1.5%;
+}
+fieldset div{
+    height: 15%;
+    margin-bottom: 2.5%;
+}
+input[type="text"],input[type="password"]{
+    width: 40%;
+    font-size: 1.8vw;
+    padding: 1%;
+}
+input[name="login"]{
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    color: whitesmoke;
+    background-color: #000000;
+    border-radius: 7%;
+    width: 42.7%;
+    font-size: 1.7vw;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+}
+input[name="login"]:hover{
+    background-color: #000000;
+}
+::placeholder{
+    padding: 1%;
+    font-size: 1.5vw;
+}
+a:visited,a:link{
+    color: #000000;
+}
+a:hover{
+    color: #adbcc2;
+}
+div.registerIntro{
+    padding-top: 0;
+    font-size: 1.7vw;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.61);
+    width: 100%;
+    font-size: 1.2vw;
+}
+footer div,footer address{
+    margin-right: 1%;
+}
+@media (max-width: 768px){
+    body{
+        padding-top: 17%;
+        width: 60%;
+        max-width: 60%;
+    }
+    header{
+        margin-left: 33%;
+    }
+    h1.title{
+        font-size: 6.5vw;
+    }
+    div.slogan{
+        font-size: 4vw;
+    }
+    main{
+        margin-left: 33%;
+    }
+    legend{
+        font-size: 4vw;
+    }
+    input[type="text"],input[type="password"]{
+        width: 55%;
+        font-size: 3vw;
+        padding: 1%;
+    }
+    input[name="login"]{
+        width: 58%;
+        font-size: 3vw;
+    }
+    ::placeholder{
+        font-size: 2.6vw;
+    }
+    div.registerIntro{
+        font-size: 2.5vw;
+    }
+    footer{
+        font-size: 2vw;
+    }
+}

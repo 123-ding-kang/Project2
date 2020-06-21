@@ -1,0 +1,168 @@
+aside,div.FilterResults{
+    display: inline-block;
+    vertical-align: top;
+}
+aside{
+    width: 22%;
+    margin-left: 2.6%;
+    margin-top: 1%;
+}
+aside h2{
+    border-bottom: 0.06rem lightgrey solid;
+    border-top-right-radius: 0.6rem;
+    border-top-left-radius: 0.6rem;
+    font-size: 2vw;
+    color: #444444;
+    text-align: center;
+    vertical-align: bottom;
+}
+aside li{
+    border-bottom: 0.06rem lightgrey solid;
+    padding-left: 10%;
+    font-size: 1.8vw;
+    padding-bottom: 3%;
+}
+aside li a:link,aside li a:visited{
+    color: #000000;
+}
+aside li a:hover{
+    color: #d0d4d4;
+}
+aside li:last-of-type{
+    border-bottom: none;
+}
+div#FilterSearch{
+    width: 100%;
+    border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
+    margin-bottom: 7%;
+    white-space: nowrap;
+}
+input[type="text"]{
+    padding-left: 0.8%;
+    font-size: 1.4vw;
+    width: 69.5%;
+    border-bottom-left-radius: 0.6rem;
+}
+input[type="submit"]{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #d0d4d4;
+    width: 28%;
+    border-bottom-right-radius: 0.6rem;
+}
+div#HotContent{
+    width: 100%;
+    border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
+    margin-bottom: 7%;
+}
+div#HotCountry{
+    width:100%;
+    border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
+    margin-bottom: 7%;
+}
+div#HotCity{
+    width: 100%;
+    border: 0.06rem solid lightgrey;
+    box-shadow: 3px 3px 1px #c2c2c2;
+    margin-bottom: 7%;
+}
+div.FilterResults{
+    width: 70%;
+    margin-left: 2%;
+}
+section.filter{
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+fieldset{
+    width: 100%;
+    border: 0.06rem solid #d0d4d4;
+    box-shadow: 4px 4px 2px #adbcc2;
+}
+legend{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.2vw;
+    color: #444444;
+}
+fieldset select{
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 21%;
+    font-size: 1.7vw;
+    color: #444444;
+}
+fieldset input[type="submit"]{
+    padding-top: -1%;
+    margin-left: 3%;
+    width: 20%;
+    background-color: #000000;
+    color: whitesmoke;
+    font-size: 1.7vw;
+}
+fieldset input[type="submit"]:hover{
+    background-color: #000000;
+}
+section.results{
+    margin-bottom: 2%;
+    border: 0.06rem solid #000000;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.62);
+}
+section.results table{
+    width: 93%;
+    margin: 1% 1% 1% 3%;
+}
+section.results tr{
+    padding: 1%;
+}
+section.results td{
+    width: 20%;
+    padding: 2%;
+}
+nav.pageNumber{
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 1.6vw;
+    vertical-align: top;
+}
+nav.pageNumber a{
+    margin-right: 2%;
+}
+nav.pageNumber a Strong{
+    color: #d0d4d4;
+}
+main nav img.icon{
+    width: auto;
+    max-width: 2%;
+}
+@media (max-width: 768px){
+    aside h2{
+        font-size: 2.6vw;
+    }
+    aside li{
+        font-size: 2.3vw;
+    }
+    input[type="text"]{
+        font-size: 1.8vw;
+    }
+    legend{
+        font-size: 3vw;
+    }
+    fieldset select{
+        font-size: 2.2vw;
+    }
+    fieldset input[type="submit"]{
+        font-size: 2.2vw;
+    }
+    nav.pageNumber{
+        font-size: 2.4vw;
+    }
+    main nav img.icon{
+        max-width: 2.5%;
+    }
+}

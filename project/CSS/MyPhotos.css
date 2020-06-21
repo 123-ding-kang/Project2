@@ -1,0 +1,97 @@
+ul#MyPhotoList{
+    margin-left: 5.5%;
+}
+ul#MyPhotoList>li{
+    margin-bottom: 3%;
+    margin-top: 0.2%;
+}
+.NoMyPic{
+    margin: 1% 2.5% 2.5%;
+    width: 94%;
+    height: 100%;
+    border: 0.1rem lightgrey solid;
+}
+.NoMyPic>p{
+    padding: 2%;
+    font-family: "Ink Free", sans-serif;
+    font-size: 2.3vw;
+    color: #444444;
+}
+div.myPic{
+    width: 94%;
+    height: 100%;
+    border: 0.1rem lightgrey solid;
+    box-shadow: 5px 5px 3px #a9a9a9;
+}
+div.myPic>figure>figcaption,div.myPic>figure>div.PicWrapper{
+    display: inline-block;
+    vertical-align: top;
+}
+div.myPic>figure{
+    padding: 2% 2% 0;
+}
+div.PicWrapper{
+    width: 20%;
+}
+figure figcaption{
+    margin-left: 1%;
+    margin-right: 0;
+    padding-right: 0;
+    height: 100%;
+    width: 70%;
+    padding-bottom: 1%;
+}
+figcaption div.myPicTopic{
+    font-size: 2.3vw;
+    color: #13227a;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+figcaption div.description{
+    width: 114%;
+    height: 20%;
+    margin-left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-indent: 2em;
+    font-size: 1.6vw;
+
+}
+input[type="button"]{
+    color: whitesmoke;
+    background-color: #adbcc2;
+    width: 24%;
+    border-radius: 0.6rem;
+    font-size: 1.6vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    float: right;
+    margin: 3% -10% 0 15%;
+}
+input[name="modify"]{
+    background-color: #adbcc2;
+}
+input[name="modify"]:hover{
+    background-color: #525257;
+}
+input[name="delete"]{
+    background-color: #adbcc2;
+}
+input[name="delete"]:hover{
+    background-color: #adbcc2;
+}
+@media (max-width: 768px){
+    figcaption div.myPicTopic{
+        font-size: 3.5vw;
+    }
+    figcaption div.description{
+        font-size: 2.4vw;
+        -webkit-line-clamp: 3;
+    }
+    input[type="button"]{
+        font-size: 2.3vw;
+    }
+}
